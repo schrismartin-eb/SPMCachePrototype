@@ -1,0 +1,10 @@
+app_identifier("com.schrismartin.packagemanagerprototype") # The bundle identifier of your app
+apple_id("schrismartin@me.com") # Your Apple email address
+
+itc_team_id("2223433") # App Store Connect Team ID
+team_id("4TD75KA4GE") # Developer Portal Team ID
+itc_team_id("2223433") # App Store Connect Team ID
+team_id("4TD75KA4GE") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -11,7 +11,32 @@
 		6B3117122514FCFD00535B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3117112514FCFD00535B0A /* Assets.xcassets */; };
 		6B3117152514FCFD00535B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3117142514FCFD00535B0A /* Preview Assets.xcassets */; };
 		6B31171F2514FE1300535B0A /* LongCompileExternalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6B31171E2514FE1300535B0A /* LongCompileExternalFramework */; };
+		6B31173625151B5600535B0A /* UnitTests.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B31173125151B5600535B0A /* UnitTests.intentdefinition */; };
+		6B31174825151B7600535B0A /* SPMCachePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31174725151B7600535B0A /* SPMCachePrototypeTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B31174A25151B7600535B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3117022514FCF900535B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3117092514FCFA00535B0A;
+			remoteInfo = SPMCachePrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B31173D25151B5600535B0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6B31170A2514FCFA00535B0A /* SPMCachePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMCachePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +44,15 @@
 		6B3117112514FCFD00535B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B3117142514FCFD00535B0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B3117162514FCFD00535B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B31172A25151B5500535B0A /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6B31172C25151B5600535B0A /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6B31172F25151B5600535B0A /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
+		6B31173125151B5600535B0A /* UnitTests.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = UnitTests.intentdefinition; sourceTree = "<group>"; };
+		6B31173225151B5600535B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B31173425151B5600535B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B31174525151B7600535B0A /* SPMCachePrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPMCachePrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31174725151B7600535B0A /* SPMCachePrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMCachePrototypeTests.swift; sourceTree = "<group>"; };
+		6B31174925151B7600535B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +64,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B31174225151B7600535B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				6B31170C2514FCFA00535B0A /* SPMCachePrototype */,
+				6B31172E25151B5600535B0A /* UnitTests */,
+				6B31174625151B7600535B0A /* SPMCachePrototypeTests */,
+				6B31172925151B5500535B0A /* Frameworks */,
 				6B31170B2514FCFA00535B0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				6B31170A2514FCFA00535B0A /* SPMCachePrototype.app */,
+				6B31174525151B7600535B0A /* SPMCachePrototypeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +113,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6B31172925151B5500535B0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B31172A25151B5500535B0A /* WidgetKit.framework */,
+				6B31172C25151B5600535B0A /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B31172E25151B5600535B0A /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B31172F25151B5600535B0A /* UnitTests.swift */,
+				6B31173125151B5600535B0A /* UnitTests.intentdefinition */,
+				6B31173225151B5600535B0A /* Assets.xcassets */,
+				6B31173425151B5600535B0A /* Info.plist */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		6B31174625151B7600535B0A /* SPMCachePrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B31174725151B7600535B0A /* SPMCachePrototypeTests.swift */,
+				6B31174925151B7600535B0A /* Info.plist */,
+			);
+			path = SPMCachePrototypeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +152,7 @@
 				6B3117062514FCFA00535B0A /* Sources */,
 				6B3117072514FCFA00535B0A /* Frameworks */,
 				6B3117082514FCFA00535B0A /* Resources */,
+				6B31173D25151B5600535B0A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -91,6 +166,24 @@
 			productReference = 6B31170A2514FCFA00535B0A /* SPMCachePrototype.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6B31174425151B7600535B0A /* SPMCachePrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B31174C25151B7600535B0A /* Build configuration list for PBXNativeTarget "SPMCachePrototypeTests" */;
+			buildPhases = (
+				6B31174125151B7600535B0A /* Sources */,
+				6B31174225151B7600535B0A /* Frameworks */,
+				6B31174325151B7600535B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B31174B25151B7600535B0A /* PBXTargetDependency */,
+			);
+			name = SPMCachePrototypeTests;
+			productName = SPMCachePrototypeTests;
+			productReference = 6B31174525151B7600535B0A /* SPMCachePrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +195,10 @@
 				TargetAttributes = {
 					6B3117092514FCFA00535B0A = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					6B31174425151B7600535B0A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6B3117092514FCFA00535B0A;
 					};
 				};
 			};
@@ -122,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				6B3117092514FCFA00535B0A /* SPMCachePrototype */,
+				6B31174425151B7600535B0A /* SPMCachePrototypeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B31174325151B7600535B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -143,11 +248,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B31173625151B5600535B0A /* UnitTests.intentdefinition in Sources */,
 				6B31170E2514FCFA00535B0A /* SPMCachePrototypeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6B31174125151B7600535B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31174825151B7600535B0A /* SPMCachePrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B31174B25151B7600535B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3117092514FCFA00535B0A /* SPMCachePrototype */;
+			targetProxy = 6B31174A25151B7600535B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6B3117172514FCFD00535B0A /* Debug */ = {
@@ -269,11 +391,12 @@
 		6B31171A2514FCFD00535B0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SPMCachePrototype/Preview Content\"";
-				DEVELOPMENT_TEAM = NS2S3JY563;
+				DEVELOPMENT_TEAM = 4TD75KA4GE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SPMCachePrototype/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -281,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.SPMCachePrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.packagemanagerprototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,11 +414,12 @@
 		6B31171B2514FCFD00535B0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SPMCachePrototype/Preview Content\"";
-				DEVELOPMENT_TEAM = NS2S3JY563;
+				DEVELOPMENT_TEAM = 4TD75KA4GE;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SPMCachePrototype/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -303,10 +427,50 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.SPMCachePrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.packagemanagerprototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B31174D25151B7600535B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NS2S3JY563;
+				INFOPLIST_FILE = SPMCachePrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.SPMCachePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPMCachePrototype.app/SPMCachePrototype";
+			};
+			name = Debug;
+		};
+		6B31174E25151B7600535B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NS2S3JY563;
+				INFOPLIST_FILE = SPMCachePrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.schrismartin.SPMCachePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPMCachePrototype.app/SPMCachePrototype";
 			};
 			name = Release;
 		};
@@ -327,6 +491,15 @@
 			buildConfigurations = (
 				6B31171A2514FCFD00535B0A /* Debug */,
 				6B31171B2514FCFD00535B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B31174C25151B7600535B0A /* Build configuration list for PBXNativeTarget "SPMCachePrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31174D25151B7600535B0A /* Debug */,
+				6B31174E25151B7600535B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
