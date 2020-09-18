@@ -22,7 +22,7 @@ jobs:
         path: DerivedData
         key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
         restore-keys: |
-          ${{ runner.os }}-spm-
+          ${{ runner.os }}-spm-forced-miss
     - name: Permit SSH Connections
       run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts
     - name: Fastlane Action
