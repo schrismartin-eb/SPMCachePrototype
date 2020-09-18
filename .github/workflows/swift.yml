@@ -20,7 +20,7 @@ jobs:
       uses: actions/cache@v2
       with:
         path: DerivedData
-        key: ${{ runner.os }}-spm-${{ hashFiles('*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
         restore-keys: |
           ${{ runner.os }}-spm-
     - name: Permit SSH Connections
