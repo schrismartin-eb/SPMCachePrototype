@@ -19,7 +19,7 @@ jobs:
     - name: Cache
       uses: actions/cache@v2
       with:
-        path: DerivedData/Build
+        path: DerivedData/Build, DerivedData/SourcePackages
         key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}-v1
         restore-keys: |
           ${{ runner.os }}-spm-v1-
