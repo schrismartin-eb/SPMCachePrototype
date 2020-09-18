@@ -19,10 +19,10 @@ jobs:
     - name: Cache
       uses: actions/cache@v2
       with:
-        path: DerivedData
-        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+        path: DerivedData/Build
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}-v1
         restore-keys: |
-          ${{ runner.os }}-spm-
+          ${{ runner.os }}-spm-v1-
     - name: Permit SSH Connections
       run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts
     - name: Fastlane Action
