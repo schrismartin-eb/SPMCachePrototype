@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "LongCompileExternalFramework",
-        "repositoryURL": "git@github.com:schrismartin-eb/LongCompileExternalFramework.git",
+        "repositoryURL": "https://github.com/schrismartin-eb/LongCompileExternalFramework.git",
         "state": {
           "branch": "main",
           "revision": "90c34d27d2eb3b7d27115c37fa59c9089a2dd1b5",

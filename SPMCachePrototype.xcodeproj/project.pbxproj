@@ -10,9 +10,9 @@
 		6B31170E2514FCFA00535B0A /* SPMCachePrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31170D2514FCFA00535B0A /* SPMCachePrototypeApp.swift */; };
 		6B3117122514FCFD00535B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3117112514FCFD00535B0A /* Assets.xcassets */; };
 		6B3117152514FCFD00535B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3117142514FCFD00535B0A /* Preview Assets.xcassets */; };
-		6B31171F2514FE1300535B0A /* LongCompileExternalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6B31171E2514FE1300535B0A /* LongCompileExternalFramework */; };
 		6B31173625151B5600535B0A /* UnitTests.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 6B31173125151B5600535B0A /* UnitTests.intentdefinition */; };
 		6B31174825151B7600535B0A /* SPMCachePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31174725151B7600535B0A /* SPMCachePrototypeTests.swift */; };
+		6B311753251524C600535B0A /* LongCompileExternalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 6B311752251524C600535B0A /* LongCompileExternalFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B31171F2514FE1300535B0A /* LongCompileExternalFramework in Frameworks */,
+				6B311753251524C600535B0A /* LongCompileExternalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +160,7 @@
 			);
 			name = SPMCachePrototype;
 			packageProductDependencies = (
-				6B31171E2514FE1300535B0A /* LongCompileExternalFramework */,
+				6B311752251524C600535B0A /* LongCompileExternalFramework */,
 			);
 			productName = SPMCachePrototype;
 			productReference = 6B31170A2514FCFA00535B0A /* SPMCachePrototype.app */;
@@ -212,7 +212,7 @@
 			);
 			mainGroup = 6B3117012514FCF900535B0A;
 			packageReferences = (
-				6B31171D2514FE1300535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */,
+				6B311751251524C600535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */,
 			);
 			productRefGroup = 6B31170B2514FCFA00535B0A /* Products */;
 			projectDirPath = "";
@@ -507,9 +507,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6B31171D2514FE1300535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */ = {
+		6B311751251524C600535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:schrismartin-eb/LongCompileExternalFramework.git";
+			repositoryURL = "https://github.com/schrismartin-eb/LongCompileExternalFramework.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -518,9 +518,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6B31171E2514FE1300535B0A /* LongCompileExternalFramework */ = {
+		6B311752251524C600535B0A /* LongCompileExternalFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6B31171D2514FE1300535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */;
+			package = 6B311751251524C600535B0A /* XCRemoteSwiftPackageReference "LongCompileExternalFramework" */;
 			productName = LongCompileExternalFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
