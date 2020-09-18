@@ -19,6 +19,7 @@ platform :ios do
   desc "Push a new release build to the App Store"
   lane :test do
     run_tests(
+        derived_data_path: "DerivedData",
         project: "SPMCachePrototype.xcodeproj",
         devices: ["iPhone 11"]
     )
