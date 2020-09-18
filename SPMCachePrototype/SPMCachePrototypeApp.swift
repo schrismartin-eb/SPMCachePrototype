@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import LongCompileExternalFramework
 
 @main
 struct SPMCachePrototypeApp: App {
+    let framework = LongCompileExternalFramework()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("The meaning of life is \(framework.theMeaningOfLife)")
         }
     }
 }
